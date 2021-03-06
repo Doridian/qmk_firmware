@@ -1,1 +1,7 @@
 DEFAULT_FOLDER = kbdfans/kbd75/rev1
+
+LTO_ENABLE = yes
+FORCE_NKRO = yes
+RAW_ENABLE = yes
+
+EXTRAFLAGS += -O3
