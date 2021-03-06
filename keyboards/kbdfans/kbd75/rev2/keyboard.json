@@ -26,17 +26,23 @@
         "brightness_steps": 8,
         "led_count": 16,
         "sleep": true,
+        "layers": {
+            "enabled": true
+        },
+        "default": {
+            "hue": 213
+        },
         "animations": {
-            "breathing": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "snake": true,
-            "knight": true,
-            "christmas": true,
-            "static_gradient": true,
-            "rgb_test": true,
-            "alternating": true,
-            "twinkle": true
+            "breathing": false,
+            "rainbow_mood": false,
+            "rainbow_swirl": false,
+            "snake": false,
+            "knight": false,
+            "christmas": false,
+            "static_gradient": false,
+            "rgb_test": false,
+            "alternating": false,
+            "twinkle": false
         }
     },
     "ws2812": {
