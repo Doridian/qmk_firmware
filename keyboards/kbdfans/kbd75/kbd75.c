@@ -114,6 +114,7 @@ static uint8_t raw_hid_receive_run(uint8_t id, uint8_t *data, uint8_t *response_
             clear_keyboard();
             break;
         }
+        /*
         case ID_RESET:
         {
             reset_keyboard();
@@ -124,6 +125,7 @@ static uint8_t raw_hid_receive_run(uint8_t id, uint8_t *data, uint8_t *response_
             eeconfig_init();
             break;
         }
+        */
         case ID_PING:
         {
             break;
